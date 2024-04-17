@@ -1,1 +1,99 @@
-body{font-family:'Poppins',sans-serif}#submitLoadingMessage,#loginLoadingMessage{font-style:italic;margin-top:10px}#responseMessage{margin-top:20px;padding:10px;border:1px solid #ced4da;border-radius:4px;text-align:left;white-space:pre-wrap}#howToUseButton,#savedButton,#leaderboardButton{padding-inline:1rem;margin:.5rem}#termsCheckbox{border-color:#343a40}.modal-content{background-color:#f8f9fa;border:1px solid rgb(0 0 0 / .2);border-radius:.5rem;-webkit-box-shadow:0 .5rem 1rem rgb(0 0 0 / .15);box-shadow:0 .5rem 1rem rgb(0 0 0 / .15)}.modal-header{border-bottom:none}.modal-title{font-size:1.5rem;font-weight:700}.modal-body{font-size:1.1rem}.modal-footer{border-top:none}.btn-close-white{color:#fff}.developer,a{color:#61a1fe}.video-container{max-width:600px;margin:0 auto}video{width:100%;height:auto;display:block}.button-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:20px}.button-container button{margin:0 10px}footer{background-color:#343a40;color:#fff;padding:20px 0}hr{height:2 px;background-color:#000}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#submitLoadingMessage,
+#loginLoadingMessage {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#responseMessage {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+#howToUseButton,
+#savedButton,
+#leaderboardButton {
+  padding-inline: 1rem;
+  margin: 0.5rem;
+}
+
+#termsCheckbox {
+  border-color: #343a40;
+}
+
+/* Custom styles for How to Use modal */
+
+.modal-content {
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  font-size: 1.1rem;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.btn-close-white {
+  color: #fff;
+}
+
+.developer,
+a {
+  color: #61a1fe;
+}
+
+.video-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button-container button {
+  margin: 0 10px;
+}
+
+/* Custom styles for footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+hr {
+  height: 2 px;
+  background-color: black;
+}
